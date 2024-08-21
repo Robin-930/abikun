@@ -1,6 +1,14 @@
 import streamlit as st
 owo = 'kkk'
 st.title("Robin fr life")
+
+st.header("Ahoy!")
+hide_st_style =""""""
+
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
+
 if st.button('Say hello', type= 'secondary'):
     robin = input("gimme ur money")
     st.text_input(robin)
