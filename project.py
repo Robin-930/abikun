@@ -7,7 +7,13 @@ if st.button('Say hello', type= 'secondary'):
     
     st.write("why hello there")
 
-with open('abhijith.jpeg', 'rb') as file:
-    st.download_button(file_name= 'abhijith.jpeg',
-                       label= 'abi hot pics',
+
+with open('gowtham.jpeg', 'rb') as file:
+    st.download_button(file_name= 'gowtham.jpeg',
+                       label= 'Gowtham hot pics',
                        data= file)
+with open('anush.jpeg', 'rb') as file:
+    st.download_button(file_name= 'anush.jpeg',
+                       label= 'anush hot pics',
+                       data= file)
+    
